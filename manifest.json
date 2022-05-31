@@ -1,0 +1,8 @@
+{
+    "short_name": "RoboFriends",
+    "name": "Udemy Course React Application Development Practice",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
