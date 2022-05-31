@@ -19,12 +19,12 @@ const App = () => {
         .then(res => res.json())
         .then(robots => setRobots([...robots]))
         .catch(err => setHasError(true));
-    }, [robots]);
+    }, []);
     
     return (
         <main className="tc">
             {
-                robots.length === 0 ? 
+                !robots.length ? 
                 <Loading /> :
                 <>
                     <>
